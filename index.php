@@ -5,8 +5,8 @@
 // Dato un array di numeri a scelta, scrivere un programma che calcoli la media solo dei numeri pari contenuti all’interno dell’array
 
 // $arr=[1,2,3,4,5,6,7,8,9,10];
-// $somma=0;
-// $contatore=0;
+// $somma=0; (ogni volta che troviamo un numero pari dobbiamo riassegnare questa variabile con se stessa più il numero pari)
+// $contatore=0;  (il contatore tiene conto di quanti numeri sono pari)
 
 // foreach ($arr as $numero) {
 //     if($numero % 2 == 0){
@@ -37,15 +37,14 @@
 
 // ];
 
-// foreach($students as$student){
-//     switch($student["Genere"]){
-//         case "M":
-//         echo "Buongiorno Sig." .$student["Nome"]." ".$student["Cognome"]. "\n";
-//         break;
-//         case "F":
-//         echo "Buongiorno Sig." .$student["Nome"]." ".$student["Cognome"]. "\n";
-//         default;
-//     }
+//  foreach($students as $student){
+        // if($student["Genere"] == "M"){
+        //    echo "Buongiorno Sig." .$student["Nome"]." ".$["Cognome"]. "\n";
+        // } elseif{($student["Genere"] == "F"){
+        //    echo "Buongiorno Sig." .$student["Nome"]." ".$["Cognome"]. "\n";
+//         }else{
+                // echo "Buongiorno" . $student["Nome"]." " . $user["Cognome"] , "\n";
+        // }
 // }
 
 // Traccia 4:
@@ -67,3 +66,4 @@
 //         echo $i."\n";
 //     }
 // }
+
